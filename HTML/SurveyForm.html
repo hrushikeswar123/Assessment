@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>
+        Survey Form
+    </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+  
+<body>
+    <h1>Customer Survey Form</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-controls">
+        <div class="form-controls1">
+            <label  style="font-size: 20px;" for="name" id="label-name">
+                Name  
+            </label>
+            <br>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name" />
+        </div>
+
+  
+        <div class="form-controls1">
+            <label style="font-size: 20px;" for="email" id="label-email">
+                Email
+            </label>
+            <br>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"/>
+        </div>
+    </div>
+      
+          <div class="form-control">
+            <label>
+                is this first time You are using our product & service?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+         
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+        </div>  
+        <div class="form-control">
+            <label>
+                Would you suggestionsto your friends and colleges?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="suggest">
+                <input type="radio"
+                       id="suggest-1"
+                       name="suggestion">Yes</input>
+         
+                <input type="radio"
+                       id="suggest-2"
+                       name="suggestion">No</input>
+            </label>
+        </div> 
+        <div class="form-control">
+            <label>
+                How satisfied are you with our comapny overall?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="satis">
+                <input type="radio"
+                       id="satis-1"
+                       name="satisfaction">Satisfied</input>
+                <input type="radio"
+                       id="satis-2"
+                       name="satisfaction">Undecided</input><input type="radio"
+                       id="satis-3"
+                       name="satisfaction">Unsatisfied</input>
+            </label>
+        </div>   
+        <div class="form-control">
+            <label for="comment">
+              Do you have suggestion to improve our service?
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+    <p style="text-align: center;">
+        @2018 Customer Survey Form From. All Rights Reserved | Design by W3Layouts
+    </p>
+</body>
+</html>

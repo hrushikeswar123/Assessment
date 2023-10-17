@@ -1,0 +1,71 @@
+
+ 
+        /* Styling the Body element i.e. Color, 
+        Font, Alignment */ 
+        body {
+            background-color: rgb(91, 199, 229);
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #ffffff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .form-controls {
+            display: flex;
+        }
+        
+        .form-controls1 {
+            flex: 1;
+            
+        }  
+        .form-controls2 {
+            margin-right: 20px;
+        }  
+
+ 
+        /* Styling form-control Label */ 
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input, 
+        select, textarea */
+        
+        
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+ 
+        /* Styling Button */
+        button {
+            border: 1px solid #131212;
+            background-color:rgb(91, 199, 229);
+            border-radius: 2px;
+            font-family: inherit;
+           height: 30px;
+           width: 70px;
+            display: block;
+            box-sizing: 50px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    
